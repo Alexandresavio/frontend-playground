@@ -9,11 +9,13 @@ class Produto{
 //Function (Função): É um verbo (ação) que representa um bloco de código reutilizável.
 
 //1º exemplo Funcao sem retorno:
+//valor1 e valor2 são parâmetros da função.
 function imprimirSoma(valor1, valor2){
     console.log(`Resultado da soma = ${valor1 + valor2}`)
 }
 //chamada da função e passagem de argumentos
-imprimirSoma(2, 3)// passei dois parametros e a função faz a soma
+imprimirSoma(2, 3)// passei dois parametros number a função faz a soma
+imprimirSoma("teste",20)//Se um dos parâmetros for string, ocorre concatenação.
 imprimirSoma(2)// passando apenas um parametro, outro será intrepretado como undefined, resultado NAN
 imprimirSoma(2, 10, 4, 5, 6, 7, 8)// passei mais de dois parametros o JS faz a soma dos dois primeiros e ignora o restante
 imprimirSoma()// passando nenhum parametro, será intrepretado como undefined, resultado NAN
