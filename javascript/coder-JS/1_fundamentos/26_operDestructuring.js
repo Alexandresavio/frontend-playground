@@ -10,8 +10,13 @@ const pessoa = {
     }
 }
 
-//Destructuring de Objeto:
-const{nome, idade} = pessoa // estou extraindo do objeto pessoa o atributo nome e o atributo idade
+/**
+ * Destructuring de Objeto:
+ * os simbolos {} representam o operador de desestruturação, 
+ * serve para extrair do objeto pessoa o atributo nome e o atributo idade
+ * 
+ *  */ 
+const{nome, idade} = pessoa 
 console.log(nome, idade)
 
 const {nome: n, idade: i} = pessoa //estou extraindo do objeto pessoa o atributo nome e o atributo idade, agora criei variáveis com a letra 'n' e 'i'
