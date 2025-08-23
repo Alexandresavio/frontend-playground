@@ -13,21 +13,6 @@ Este repositório é um espaço para prática, testes e experimentação com tec
 
 ---
 
-## 🗂️ Estrutura do Projeto
-
-```
-frontend-playground/
-├── html/                 # Exemplos de marcação HTML
-├── css/                  # Estilos e layouts
-├── javascript/           # Scripts JS e manipulação DOM
-├── projetos/             # Projetos pequenos integrando as tecnologias
-│   └── mini-calculadora/
-├── docs/                 # Notas e anotações
-└── README.md
-```
-
----
-
 ## ▶️ Como usar
 
 1. Clone este repositório:
