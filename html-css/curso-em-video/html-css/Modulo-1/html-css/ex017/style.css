@@ -1,0 +1,20 @@
+@charset "UTF-8";
+body {
+    background-color: rgb(53, 56, 58);
+    color: aliceblue;
+}
+
+.heading-1 {
+    background-color: rgb(109, 109, 155);
+    color: aliceblue;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+}
+.heading-2{
+    color: red;
+}
+a{
+    text-decoration:none;
+    color: aliceblue;
+}
